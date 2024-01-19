@@ -1,4 +1,4 @@
-import { Text } from "./lib/ui/Text";
+import { Text } from "./lib/ui/Text/Text";
 import { AppProviders } from "./lib/providers/AppProviders";
 
 function App() {

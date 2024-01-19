@@ -1,6 +1,7 @@
 import React from "react";
 import type { Preview } from "@storybook/react";
-import { Theme } from "@radix-ui/themes";
+import { ThemeProvider } from "../src/lib/providers/ThemeProvider";
+
 import "@radix-ui/themes/styles.css";
 
 const preview: Preview = {
@@ -15,9 +16,9 @@ const preview: Preview = {
   },
   decorators: [
     (Story) => (
-      <Theme>
+      <ThemeProvider>
         <Story />
-      </Theme>
+      </ThemeProvider>
     ),
   ],
 };
