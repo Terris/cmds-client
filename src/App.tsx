@@ -1,15 +1,15 @@
-import { Theme } from "@radix-ui/themes";
 import { Text } from "./lib/ui/Text";
+import { AppProviders } from "./lib/providers/AppProviders";
 
 function App() {
   return (
-    <Theme>
+    <AppProviders>
       <div className="App">
         <header>
           <Text as="h1">CMDS Client</Text>
         </header>
       </div>
-    </Theme>
+    </AppProviders>
   );
 }
 
