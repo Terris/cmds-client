@@ -5,6 +5,7 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en) & [NPM](https://www.npmjs.com/)
 - [React](https://react.dev/), initiated with [create-react-app](https://github.com/facebook/create-react-app)
+- [React Router](https://reactrouter.com/) for routing
 - [Tailwind](https://tailwindcss.com/) - CSS framework
 - [Shadcn/ui](https://ui.shadcn.com/) - Component primitives
 - [Storybook](https://storybook.js.org/) - For developing components in isolation
@@ -45,3 +46,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run storybook`
 
 Launches Storybook
+
+## Component Primitives
+
+This app uses [Shadcn/ui](https://ui.shadcn.com/) to build component primitives. These components are installed using the accompanying CLI:
+
+```bash
+npx shadcn-ui@latest add <componentName>
+```
+
+These components will be installed to `/src/lib/ui`, and then moved to a directory of the same name to encapsulate related files such as storybook stories or unit tests.
