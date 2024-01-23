@@ -4,9 +4,16 @@
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en) & [NPM](https://www.npmjs.com/)
-- [React](https://react.dev/) initiated with [create-react-app](https://github.com/facebook/create-react-app)
-- [Radix UI](https://www.radix-ui.com/)
-- [Storybook](https://storybook.js.org/)
+- [React](https://react.dev/), initiated with [create-react-app](https://github.com/facebook/create-react-app)
+- [Tailwind](https://tailwindcss.com/) - CSS framework
+- [Shadcn/ui](https://ui.shadcn.com/) - Component primitives
+- [Storybook](https://storybook.js.org/) - For developing components in isolation
+
+## Getting started
+
+- Download and install [Node.js](https://nodejs.org/) v21.6.1 or greater. This will include [NPM](https://www.npmjs.com/) (Node package manner) and cli
+- cd into the project directory
+- run `npm install`
 
 ## Available Scripts
 
