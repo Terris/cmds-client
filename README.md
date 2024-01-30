@@ -9,6 +9,7 @@
 - [Tailwind](https://tailwindcss.com/) - CSS framework
 - [Shadcn/ui](https://ui.shadcn.com/) - Component primitives
 - [Storybook](https://storybook.js.org/) - For developing components in isolation
+- [Chart.js](https://www.chartjs.org/) & [react-chartjs-2](https://react-chartjs-2.js.org/) - For building charts
 
 ## Getting started
 
