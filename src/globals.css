@@ -4,7 +4,8 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --root-background: 210, 16%, 93%;
+    --background: 0, 0%, 100%;
     --foreground: 0 0% 3.9%;
 
     --card: 0 0% 100%;
@@ -32,7 +33,7 @@
     --input: 0 0% 89.8%;
     --ring: 0 0% 3.9%;
 
-    --radius: 0.5rem;
+    --radius: 0.25rem;
   }
 }
 
@@ -41,6 +42,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-rootBackground text-foreground;
   }
 }

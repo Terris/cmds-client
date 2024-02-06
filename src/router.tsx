@@ -3,6 +3,7 @@ import { RootLayout } from "./lib/layout/root-layout";
 import { HomePage } from "./routes/home";
 import { AboutPage } from "./routes/about";
 import { NoMatchPage } from "./routes/no-match";
+import { LoginPage } from "./routes/login";
 
 export function Router() {
   return (
@@ -10,10 +11,7 @@ export function Router() {
       <Route path="/" element={<RootLayout />}>
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
-
-        {/* Using path="*"" means "match anything", so this route
-          acts like a catch-all for URLs that we don't have explicit
-          routes for. */}
+        <Route path="/login" element={<LoginPage />} />
         <Route path="*" element={<NoMatchPage />} />
       </Route>
     </Routes>
