@@ -42,6 +42,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-rootBackground text-foreground;
+    @apply bg-rootBackground text-foreground font-body;
   }
 }
