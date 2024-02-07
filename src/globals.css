@@ -45,3 +45,7 @@
     @apply bg-rootBackground text-foreground font-body;
   }
 }
+
+.leaflet-container {
+  height: 300px;
+}
